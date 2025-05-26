@@ -297,7 +297,7 @@ with st.form("prediction_form"):
         "No": 0,
     }
 
-    Tuition_fees_up_to_date = st.selectbox("Apakah mahasiswa menunggak uang kuliah?", list(Tuition_fees_up_to_date_options.keys()))
+    Tuition_fees_up_to_date = st.selectbox("Apakah mahasiswa membayar uang kuliah tepat waktu?", list(Tuition_fees_up_to_date_options.keys()))
     Tuition_fees_up_to_date_value = Tuition_fees_up_to_date_options[Tuition_fees_up_to_date]
 
     # Gender	
